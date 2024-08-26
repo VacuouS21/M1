@@ -1,0 +1,15 @@
+.login-layout {
+    background-image: url("../../../src/main/frontend/themes/my-app/components/login.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+}
+.login-layout vaadin-login-form {
+    align-items: center;
+    display: flex;
+    max-width: 300px;
+}
+.login-layout vaadin-login-form-wrapper {
+    background-image: none;
+}
