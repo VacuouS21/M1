@@ -1,6 +1,5 @@
-package com.example.application.views.helloworld;
+package ru.m1.project.views.helloworld;
 
-import com.example.application.views.MainLayout;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.notification.Notification;
@@ -9,6 +8,7 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RouteAlias;
+import ru.m1.project.views.MainLayout;
 
 @PageTitle("Hello World")
 @Route(value = "", layout = MainLayout.class)
